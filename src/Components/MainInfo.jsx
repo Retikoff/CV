@@ -9,7 +9,7 @@ export default function MainInfo({ gridPos }) {
     >
       <img
         src={photo}
-        className="col-start-1 col-end-2 row-start-1 row-end-2 h-60 rounded-md"
+        className="col-start-1 col-end-2 row-start-1 row-end-2 h-60 rounded-md max-sm:h-40"
       />
       <div className="col-start-2 col-end-3 row-start-1 row-end-2 flex flex-col gap-3">
         <p className="text-5xl font-bold text-violet-500">Retikov Andrew</p>
