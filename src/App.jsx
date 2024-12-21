@@ -7,7 +7,7 @@ import WorkExperience from './Components/WorkExperience'
 function App() {
   return (
     <div className="flex justify-center items-center w-full h-full">
-      <div className="grid grid-cols-[70%_30%] grid-rows-[auto_auto_auto_auto_auto] rounded-md w-3/4 shadow-xl drop-shadow-lg border-2 my-5 bg-white max-lg:grid-cols-1 max-lg:grid-rows-[auto_auto_auto_auto_auto_auto]">
+      <div className="grid grid-cols-[70%_30%] grid-rows-[auto_auto_auto_auto_auto] rounded-md w-3/4 shadow-xl drop-shadow-lg border-2 my-5 bg-white max-lg:grid-cols-1 max-lg:grid-rows-[auto_auto_auto_auto_auto_auto] max-lg:w-screen">
         <MainInfo gridPos={'col-start-1 col-end-2 row-start-1 row-end-2'} />
         <SideInfo
           gridPos={
