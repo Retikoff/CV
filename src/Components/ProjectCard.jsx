@@ -1,7 +1,7 @@
 export default function ProjectCard({ image, heading, description, link }) {
   return (
     <div className="flex flex-row gap-3 border-2 rounded-md max-lg:flex-col max-lg:items-center max-lg:w-full">
-      <img src={image} className="w-96 border-2 border-slate-600 rounded-md" />
+      <img src={image} className="w-96 border-2 border-slate-600 rounded-md print:hidden" />
       <div className="flex flex-col justify-between gap-1 max-lg:items-center">
         <p className="text-xl font-semibold py-1">{heading}</p>
         <p className="px-2">{description}</p>
